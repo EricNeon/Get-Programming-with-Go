@@ -32,7 +32,7 @@ func main() {
 		} else {
 			trip = "单程"
 		}
-		fmt.Printf("%-20v %-20v %-20v $%-20v\n", company, duration, trip, price)
+		fmt.Printf("%-20v %-20v %-20v $%-8v\n", company, duration, trip, price)
 
 	}
 
