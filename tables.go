@@ -52,5 +52,5 @@ func ftoc(row int) (string, string) {
 func main() {
 	drawTable("摄氏度", "华氏度", 29, ctof)
 	fmt.Println()
-	drawTable("摄氏度", "华氏度", 29, ftoc)
+	drawTable("华氏度", "摄氏度", 29, ftoc)
 }
